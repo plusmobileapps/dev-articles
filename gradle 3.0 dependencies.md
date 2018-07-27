@@ -1,4 +1,5 @@
-#Gradle 3.0 
+# Gradle 3.0 
+
 Ever since the introduction of the Android Gradle 3.0 plugin, there are a couple of changes in the way you configure dependencies. 
 
 Before there use to be only the `compile` dependency configuration, gradle 3.0 ditched `compile` and is now `implementation` and `api`. Now these new dependency configurations do not need to be used if all of the configurations still remain as `compile`. If one `compile` statement is switched to either of the new configurations, then all `compile` configurations in the gradle script need to also be changed to the new configurations.  
