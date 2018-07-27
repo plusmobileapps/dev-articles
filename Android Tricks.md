@@ -1,4 +1,4 @@
-# Android Tricks
+# Android Terminal Tricks
 
 ### How to Open Android Studio from the Terminal
 
@@ -33,4 +33,11 @@ Simply type the location of the android app directory after `open_android` to op
 
 ```
 $  open_android ~/myprojectlocation
+```
+
+Gradle Clean and Gradle Stop
+
+```
+alias gclean='./gradlew clean'
+alias gstop='./gradlew --stop'
 ```
