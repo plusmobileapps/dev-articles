@@ -61,6 +61,12 @@ Then add this activity to the widget info with the `android:configure` tag.
 </appwidget-provider>
 ```
 
+## Using Work Manager 
+
+[Enable Java 8 Support](https://developer.android.com/studio/write/java8-support)
+
+[Fix for needing to update kotlin compiler to target 1.8](https://stackoverflow.com/a/48988779)
+
 
 ### Misc Links
 
@@ -75,3 +81,7 @@ Then add this activity to the widget info with the `android:configure` tag.
 [Stack widget app example code](https://android.googlesource.com/platform/development/+/master/samples/StackWidget)
 
 [Example app updating widget from a service](https://android.googlesource.com/platform/development/+/master/samples/Wiktionary/src/com/example/android/wiktionary/WordWidget.java)
+
+[Fix for `JobIntentService` crashing in `AsyncTask`](https://issuetracker.google.com/issues/63622293#comment47) - useful when you use a library that you don't have control over the asynchronous framework
+
+[The CommonsBlog - WorkManager, App Widgets, and the Cost of Side Effects](https://commonsware.com/blog/2018/11/24/workmanager-app-widgets-side-effects.html)
